@@ -17,6 +17,16 @@
         .feed-form
             justify-content: center
             margin: 36px auto 0 auto
+    .catalog
+        &__content
+            &_active
+                display: flex
+                justify-content: center
+    .reviews
+        &-item
+            &__img
+                margin-right: 30px
+                margin-left: 20px
 @media ( max-width: 767px )
     .benefits
         padding-bottom: 80px
@@ -30,10 +40,22 @@
         .title 
             &_left
                 font-size: 25px 
+    .catalog
+        &__tabs
+            transform: none
+        &__tab
+            width: 175px
+            div
+                transform: none
 @media  ( max-width: 593px )
     .header
         &__phone
             font-size: 15px
+    .catalog
+        &__tab
+            width: 150px
+            div
+                font-size: 15px
 @media  ( max-width: 575px )
     .header
         &__official
@@ -55,6 +77,15 @@
                 font-size: 18px
         &__descr
             font-size: 15px
+    .reviews
+        &-item
+            display: flex
+            flex-direction: column
+            align-items: center
+            text-align: center
+            &__descr
+                width: 400px    
+
 
     
                 
