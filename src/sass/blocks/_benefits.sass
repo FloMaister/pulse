@@ -25,6 +25,20 @@
         a
             color: $main-color 
             text-decoration: underline
+    &__icon
+        &_animated
+            animation: paused
+            &:hover
+                animation: heartbeat 1.5s ease infinite
+        &_animated-shoe
+            animation: paused
+            &:hover
+                animation: shoe 1.75s ease-in 0.1s infinite
+        &_animated-cup
+            animation: paused
+            &:hover
+                animation: cup 1s linear infinite alternate
+                
     
 
         
